@@ -1,0 +1,17 @@
+Git is a version control system.
+Git is free software.
+A good tutorial can be found at 
+http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
+
+frequently used command:
+1 git init
+2 git add <file>
+3 git commit -m "my explanations"
+4 git status : check out status of the repository
+5 git diff <filename>: check out what is changed in the repository
+6 git log : list the history of commit (version)
+7 git reset --hard HEAD^ : go back to the last version.
+  git reset --hard HEAD^^ : go back to the previous previous version.
+  git reset --hard HEAD~100 : go back to the 100th previous version.
+
+8 git reflog: check out history of git command.
